@@ -1,0 +1,52 @@
+# chake data type 
+a = 10
+print(type(a)) # type are say to what type of element 
+a = 10.5
+print(type(a))
+# boolean data type 
+d = True
+print(type(d))
+#set data type 
+f ={'a','b','c'}
+print(type(f))
+
+# dictionary data type 
+x= {"key":"value "}
+print(type(x))
+
+#sequence data type
+# list dat type 
+l1 =[ 1,2,3,4,5,6,7]
+print(type(l1))
+
+# string data type
+s = "liesh"
+print(type(s))
+# tuple data type 
+
+z= (1,2,3,4,5,6)
+print(type(z))
+# reating a variable 
+a = 10 # string variable 
+print(a)
+#string  variable 
+b = "lilesh"
+print(b)
+# list stor in variable
+l1 = [1,2,3,4,5,6]
+print(l1)
+# tuple store in variable
+l2 = (1,2,3,4)
+print(l2)
+print(type(l1))
+# type conversion
+# converting one data type to another data type 
+d = int(input("enter the valu of a "))
+print("a",d)
+print(type(d))
+
+# use of split we take a multiplwe val  in  user 
+x,y = input("enter a value ").split()
+print("first",x)
+print("second",y)
+print()
