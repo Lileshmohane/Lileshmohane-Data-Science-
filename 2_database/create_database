@@ -1,0 +1,10 @@
+import mysql.connector
+mydb =mysql.connector.connect(
+host="localhost",
+  user="abc",
+  password="password"
+)
+
+mycurser= mydb.cursor()
+mycurser.execute("CREATE DATABASE if not exists test2")
+mydb.close()
